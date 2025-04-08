@@ -21,7 +21,7 @@ API_KEY = 'Your_Api_Key'
 genai.configure(api_key=API_KEY)
 
 # Start chat model
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat(history=[])
 
 # Execution time setup
